@@ -211,6 +211,12 @@ body{
   align-items: center;
 }
 
+.image__63 img:hover{
+  cursor: pointer;
+  transition:all 2s ease 0s;
+  transform:scale(1.1);
+}
+
 .rasm{
   width: 170px;
   height: 138px;
@@ -569,8 +575,18 @@ body{
   margin-bottom: 140px;
 }
 
+.nows a{
+  text-decoration:none;
+}
+
 .block__4 img{
   margin-bottom: 16px;
+}
+
+.block__4 img:hover{
+  cursor: pointer;
+  transition:all 2s ease 0s;
+  transform:scale(1.1);
 }
 
 .block__title{
